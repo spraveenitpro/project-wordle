@@ -7,7 +7,7 @@ import GuessResults from '../GuessResults';
 import Guess from '../Guess';
 
 // Pick a random word on every pageload.
-const answer = sample(WORDS);
+const answer = sample(WORDS) ;
 
 console.info({ answer });
 
